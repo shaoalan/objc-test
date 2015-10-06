@@ -1,7 +1,7 @@
 #import "Creature.h"
 
 @implementation Creature
--(NSString *) name
+/*-(NSString *) name
 {
 	return name;
 }
@@ -23,10 +23,15 @@
 }
 -(void) setMagicPoint: (int) magic
 {
-	magic = magicPoint;
+	magicPoint = magic;
 }
+*/
+@synthesize name;
+@synthesize hitPoint;
+@synthesize magicPoint;
 -(NSString *) description
 {
-	return @"Creature=[name: %@, hitPoint: %@, magicPoint: %@"
+	//return @"dddd";
+	return [NSString stringWithFormat: @"Creature=[name: %@, hitPoint: %d, magicPoint: %d]", self.name, self.hitPoint, self.magicPoint];
 }
 @end
