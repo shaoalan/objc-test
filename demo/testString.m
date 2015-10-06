@@ -44,5 +44,13 @@ int main(int argc, const char *argv[])
 		char c = [name characterAtIndex: i];
 		NSLog(@"字符串%d位为%c", i, c);
 	}*/
+	
+	//test NSRange
+	//NSRange range = {20, 5};
+	//NSRange range;
+	//range.location = 55;
+	//range.length = 20;
+	NSRange range = NSMakeRange(54, 8);
+	NSLog(@"location: %d, length: %d", range.location, range.length);
 	[pool drain];
 }

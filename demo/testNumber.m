@@ -9,6 +9,8 @@ int main(int argc, const char *argv[])
 	NSNumber *longNum = [NSNumber numberWithLong: 0xababab];
 	NSLog(@"%d", [longNum longValue]);
 	
+	
+	
 	[pool drain];
 	return 0;
 }

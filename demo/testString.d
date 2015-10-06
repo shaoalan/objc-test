@@ -1,4 +1,4 @@
-testString.exe: testString.m \
+testString.exe: People.m People.h \
  D:/ProgramFiles/GNUstep/GNUstep/System/Library/Headers/Foundation/Foundation.h \
  D:/ProgramFiles/GNUstep/GNUstep/System/Library/Headers/GNUstepBase/GSVersionMacros.h \
  D:/ProgramFiles/GNUstep/GNUstep/System/Library/Headers/GNUstepBase/GSConfig.h \
@@ -142,6 +142,8 @@ testString.exe: testString.m \
  D:/ProgramFiles/GNUstep/GNUstep/System/Library/Headers/Foundation/NSXMLDTDNode.h \
  D:/ProgramFiles/GNUstep/GNUstep/System/Library/Headers/Foundation/NSXMLElement.h \
  D:/ProgramFiles/GNUstep/GNUstep/System/Library/Headers/Foundation/NSXMLParser.h
+
+People.h:
 
 D:/ProgramFiles/GNUstep/GNUstep/System/Library/Headers/Foundation/Foundation.h:
 
